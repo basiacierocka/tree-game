@@ -1,0 +1,47 @@
+body{
+  background-image: url("http://www.marekgurgul.pl/wp-content/uploads/2017/03/Fotolia_139829434_Subscription_Monthly_M.jpg");
+}
+
+.container{
+  background-color: rgba(255, 255, 255, 0.7);
+  display: grid;
+ // grid-template: 1fr 1fr 1fr / 1fr;
+}
+
+.title, .subtitle {
+  text-align: center;
+}
+
+.title {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 5em;
+}
+
+.subtitle {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.8em;
+}
+
+ul li{
+  display: table;
+}
+
+.nav {
+  font-family:'Amatic SC', cursive;
+  font-size: 2em;
+  border-color: black;
+  box-shadow: 4px 4px #bbb;
+}
+
+button{
+  border-style: dotted;
+  border-color: black;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 50%;
+  font-family:'Amatic SC', cursive;
+ font-size: 3em;
+  margin: 1em;
+}
+.task{}
