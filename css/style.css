@@ -1,3 +1,8 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 body{
   background-image: url("http://www.marekgurgul.pl/wp-content/uploads/2017/03/Fotolia_139829434_Subscription_Monthly_M.jpg");
 }
@@ -45,3 +50,10 @@ button{
   margin: 1em;
 }
 .task{}
+.item_2{
+  margin: 2vh;
+  margin-left: 6vh;
+}
+.item_3{
+  margin: 1vh;
+}
