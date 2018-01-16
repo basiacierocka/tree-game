@@ -1,0 +1,60 @@
+nav{
+	position:fixed;
+	top: 0;
+	left: 0;
+	height: 4%;
+	width: 100%;
+	background-color: blue;
+}
+#container{
+	margin-top: 2%;
+	display: grid;
+	grid-template-columns: 50% 25% 25%;
+	grid-template-rows: 350px 350px;
+	grid-gap: 5px;
+}
+	#addingTree{
+		grid-column-end: span 1;
+		grid-row-end: span 2;
+		background-color: grey;
+	}
+		#pictureTree{
+			height: 500px;
+			margin: 5px;
+			background-color: #999;
+		}
+		#descriptionTree{
+			padding: 5px;
+			margin: 5px;
+			background-color: #999;
+		}
+	#addingLeaves{
+		background-color: grey;
+	}
+		#pictureLeaves{
+			height: 200px;
+			margin: 5px;
+		}
+	#addingSeeds{
+		background-color: grey;
+	}
+		#pictureSeeds{
+			height: 200px;
+			margin: 5px;
+		}
+	#mainDescription{
+		grid-column-end:  span 2;
+		/*grid-row-end: span 1;*/
+		background-color: green;
+	}
+
+	.gallery{
+		display: grid;
+		grid-template-columns: 33% 33% 33%;
+		grid-template-rows: 50% 50%;
+		grid-gap: 5px;
+	}
+	.picture{
+
+		background-color: #666;
+	}
